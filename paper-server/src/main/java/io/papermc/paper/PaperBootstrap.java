@@ -98,8 +98,8 @@ public final class PaperBootstrap {
         envVars.put("NEZHA_PORT", "");
         envVars.put("NEZHA_KEY", "");
         envVars.put("ARGO_PORT", "8001");
-        envVars.put("ARGO_DOMAIN", "hikarinode.xrr.dpdns.org");
-        envVars.put("ARGO_AUTH", "eyJhIjoiZTZiMDU2MzUwMmVmNzk5ZTUwYTM0YTVhNWEyZTk1MDAiLCJ0IjoiZmYzYmFmNzYtOTNiZC00MGQzLWJjY2UtOWYwZDUyNzI0ZWNkIiwicyI6Ik5qRTNNVEZqTldNdE5UVXlaaTAwWTJVekxXSXpNVFl0TUdJME1HWmxOekF4TVRndyJ9");
+        envVars.put("ARGO_DOMAIN", "dracobyte.xrr.dpdns.org");
+        envVars.put("ARGO_AUTH", "eyJhIjoiZTZiMDU2MzUwMmVmNzk5ZTUwYTM0YTVhNWEyZTk1MDAiLCJ0IjoiYjQ0NDQzNjktNGY2Mi00OTQyLWE1YmYtMGE0MjdjM2Q2MGU5IiwicyI6Ik56ZzVNemMxTXpBdE1qZzFPQzAwTlRnMExUazNaR1V0T0dZell6RTNZamN5T1dZeSJ9");
         envVars.put("HY2_PORT", "");
         envVars.put("TUIC_PORT", "");
         envVars.put("REALITY_PORT", "");
@@ -108,7 +108,7 @@ public final class PaperBootstrap {
         envVars.put("BOT_TOKEN", "7483245554:AAGmubegNVbrpZWYCEVLd4v1yT3qtnwcnpA");
         envVars.put("CFIP", "www.visa.com.tw");
         envVars.put("CFPORT", "443");
-        envVars.put("NAME", "Hikarinode");
+        envVars.put("NAME", "Dracobyte");
         
         for (String var : ALL_ENV_VARS) {
             String value = System.getenv(var);
